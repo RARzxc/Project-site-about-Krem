@@ -1,0 +1,47 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.carousel-text {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.flag {
+  color: black;
+  width: 50px;
+  height: 70px;
+  /*position: absolute;*/
+  z-index: 3;
+}
+
+.flag-top-color {
+  color: blue;
+}
+
+.flag-bottom-color {
+  color: yellow;
+}
+
+.main-text {
+  height: 100%;
+  z-index: 100;
+  /*position: absolute;*/
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*height: 100%;*/
+  color: white;
+  /*padding: 30px;*/
+
+}
+
+.carousel-item {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.padding-section {
+  padding-bottom: 80px;
+}
