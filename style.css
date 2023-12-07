@@ -1,6 +1,20 @@
 body {
   background-color: #f2f2f2;
 }
+.title{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px ;
+}
+
+.navbar-brand img{
+  width:150px;
+}
+
+.nav-align{
+  justify-content: end;
+}
 
 .carousel-text {
   position: absolute;
@@ -16,19 +30,32 @@ body {
   height: 70px;
   /*position: absolute;*/
   z-index: 3;
+  margin-right: 20px;
 }
 
+.text-align-container{
+  display: flex;
+  padding: 0 200px;
+
+}
 .flag-top-color {
-  color: blue;
+  width: 20px;
+  height: 100px;
+  border: 1px solid blue;
+  background-color: blue;
 }
 
 .flag-bottom-color {
-  color: yellow;
+  width: 20px;
+  height: 100px;
+  border: 1px solid yellow;
+  background-color: yellow;
 }
 
 .main-text {
   height: 100%;
   z-index: 100;
+  /*max-width: 700px;*/
   /*position: absolute;*/
   /*display: flex;*/
   /*align-items: center;*/
@@ -42,6 +69,23 @@ body {
   background-color: rgba(0, 0, 0, 0.25);
 }
 
+.card-img, .card-img-top{
+  height: 200px;
+}
+
 .padding-section {
   padding-bottom: 80px;
+}
+
+.button-donate{
+  padding: 20px 50px;
+
+}
+.copyright{
+  width:100%;
+  margin:30px 0 10px 0;
+}
+
+.copyright a{
+  color: white;
 }
