@@ -5,11 +5,28 @@ body {
   text-transform: uppercase;
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 30px ;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+
+.padding-section {
+  padding-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+  .padding-section {
+    padding-bottom: 30px;
+  }
 }
 
 .navbar-brand img{
-  width:150px;
+  max-width: 150px;
 }
 
 .nav-align{
@@ -21,14 +38,14 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.41);
+  width: 100%;
 }
 
 .flag {
   color: black;
   width: 50px;
   height: 70px;
-  /*position: absolute;*/
   z-index: 3;
   margin-right: 20px;
 }
@@ -38,6 +55,13 @@ body {
   padding: 0 200px;
 
 }
+
+@media (max-width: 768px) {
+  .text-align-container {
+    padding: 0;
+  }
+}
+
 .flag-top-color {
   width: 20px;
   height: 100px;
@@ -52,34 +76,54 @@ body {
   background-color: yellow;
 }
 
+@media (max-width: 768px) {
+  .flag-top-color, .flag-bottom-color {
+    width: 10px;
+    height: 50px;
+  }
+}
+
 .main-text {
   height: 100%;
   z-index: 100;
-  /*max-width: 700px;*/
-  /*position: absolute;*/
-  /*display: flex;*/
-  /*align-items: center;*/
-  /*height: 100%;*/
   color: white;
-  /*padding: 30px;*/
+}
 
+@media (max-width: 768px) {
+  .main-text {
+    font-size: 18px;
+  }
 }
 
 .carousel-item {
   background-color: rgba(0, 0, 0, 0.25);
 }
 
+.card {
+  margin-bottom: 20px;
+}
+
 .card-img, .card-img-top{
   height: 200px;
 }
 
-.padding-section {
-  padding-bottom: 80px;
+.ukraine-map {
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  .ukraine-map {
+    max-width: 200px;
+  }
 }
 
 .button-donate{
   padding: 20px 50px;
 
+}
+
+.footer-logo {
+  max-width: 200px;
 }
 .copyright{
   width:100%;
@@ -90,12 +134,15 @@ body {
   color: white;
 }
 
-.zamok{
+.zamok {
   display: flex;
   margin-bottom: 30px;
   width: 300px;
   margin-left: auto;
   margin-right: auto;
   border: 3px solid black;
-  
+}
+
+.animate__animated {
+  --animate-duration: 2s;
 }
